@@ -1,0 +1,81 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  background-color: hsl(206, 33%, 96%);
+  font-family: 'Open Sans', sans-serif;
+}
+#navbar{
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  padding: 15px;
+  letter-spacing: 0.25rem;
+  font-weight: 700;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+#navbar p{
+  color: hsl(205, 78%, 60%);
+}
+#btn-container ul{
+  display: flex;
+}
+#btn-container ul li{
+  list-style: none;
+}
+#btn-container a{
+  text-decoration: none;
+  margin: 0 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.25rem;
+  color: #063251;
+}
+
+#btn-container li a:hover{
+  color: hsl(205, 78%, 60%);
+  cursor: pointer;
+}
+#main{
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#main h1{
+  background: black;
+  color: white;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+}
+#info{
+  font-size: 2.4rem;
+  letter-spacing: 0.25rem;
+}
+#info-clr{
+  color: hsl(205, 78%, 60%);
+}
+#info-btn{
+  padding: 0.8rem 1.5rem;
+}
+.IO{
+  background: none;
+  margin: 0 0.4rem;
+  padding: 0.8rem 1rem;
+  font-size: 1rem;
+  border: 2px solid black;
+  border-radius: 0.5rem;
+  letter-spacing: 0.25rem;
+  border-style: outset;
+  font-weight: 600;
+}
+.IO:hover{
+  background: black;
+  cursor: pointer;
+  color: white;
+  transition: all 0.3s linear;
+  box-shadow: 0 1px 3px rgb(0 0 0 /      20%);
+}
